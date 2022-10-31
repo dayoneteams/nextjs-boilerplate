@@ -1,7 +1,7 @@
 const LoginPage = () => (
-  <div>
-    <div>Login</div>
-  </div>
+  <UnauthenticatedOnlyLayout>
+    <LoginForm />
+  </UnauthenticatedOnlyLayout>
 );
 
 export default LoginPage;
